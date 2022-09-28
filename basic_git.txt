@@ -1,0 +1,36 @@
+!!WARNING!! DONT INIT A REPO INSIDE OF A REPO:
+	-Before running git init, use git status to verify that you're not currently inside of a repo.
+	-Prefer using 1 repo per project
+
+[Working Directory] -> "git add" -> [Staging Area] -> "git commit" -> [Repository(updating to .git folder in repo)]
+
+check git version:
+	git --version
+
+config global:
+	git config -global user.name "your_name"
+	git config -global user.email "your_valid_email"
+
+create git repo:
+	git init
+
+check git files status(but need to initialize repo first):
+	git status
+
+adding specific file(s) to git (moving to staging area):
+	git add file1 file2 ..
+
+adding all(s) files to git at once (moving to staging area):
+	git add .
+
+to unstage git file:
+	git rm --cached <file>
+
+to unstage git modified file:
+	git restore --staged <file>
+
+retrieve git information:
+	git log
+
+to commit changes from staging area(summarizes the changes and work snapshotted in the commit):
+	git commit -m "your_message_should_have_meaning"
