@@ -34,3 +34,18 @@ retrieve git information:
 
 to commit changes from staging area(summarizes the changes and work snapshotted in the commit):
 	git commit -m "your_message_should_have_meaning"
+
+view git log in one line:
+	git log --oneline
+
+
+*** BEST GIT PRACTICE ***
+
+1) Atomic Commits
+	-Try to keep each commit focused on a single thing (when got two or more changes in repo).
+	-Because much easier to undo or rollback changes later on.
+	-Make code or project easier to review with "git log"
+
+2) Present-Tense Imperactive Style ? <commit messages>
+	-https://medium.com/@corrodedlotus/which-tense-should-be-used-on-a-git-commit-message-121cb641134b
+
