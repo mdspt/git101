@@ -38,6 +38,14 @@ to commit changes from staging area(summarizes the changes and work snapshotted 
 view git log in one line:
 	git log --oneline
 
+made a commit and then realized you forgot to include a file! Or maybe a typo in commit message.
+	git commit --amend (work for current commit not the previous one)
+
+ignore file from been tracked (like credentials / keys / etc secret).
+	option 1: using website help -> https://www.toptal.com/developers/gitignore/
+	option 2: create .gitignore
+				-add desired filename. Ex: node_modules/
+
 
 *** BEST GIT PRACTICE ***
 
