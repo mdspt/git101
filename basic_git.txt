@@ -46,6 +46,13 @@ ignore file from been tracked (like credentials / keys / etc secret).
 	option 2: create .gitignore
 				-add desired filename. Ex: node_modules/
 
+What is HEAD?
+	-HEAD is our current location that we are viewing or that we're checking out.
+	-It's a reference to a branch pointer and a branch pointer is where a branch currently is.
+
+show current list of working branch (*is active branch):
+	git branch
+
 
 *** BEST GIT PRACTICE ***
 
