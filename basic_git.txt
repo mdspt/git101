@@ -50,8 +50,17 @@ What is HEAD?
 	-HEAD is our current location that we are viewing or that we're checking out.
 	-It's a reference to a branch pointer and a branch pointer is where a branch currently is.
 
-show current list of working branch (*is active branch):
+view current list on working branch (*is active branch):
 	git branch
+
+creating branch
+	git branch <branch-name>
+
+rename branch 
+	git branch -m <new-branch-name>
+
+switching between branches 
+	git switch <desired-branch-name>
 
 
 *** BEST GIT PRACTICE ***
